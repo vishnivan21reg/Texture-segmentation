@@ -1,5 +1,5 @@
 # Texture-segmentation
-Modeling and segmentation images that described by causal autoregressive model with mask [(0,-1),(-1,0),(-1,-1)]  
+## Modeling and segmentation images that described by causal autoregressive model with mask [(0,-1),(-1,0),(-1,-1)]  
 autoreg_img() - моделирует изображение, описываемых quarter-plane каузальной моделью авторегрессии с маской [(0, -1), (-1, 0), (-1, -1)]  
 autocov() – считает выборочную автокорреляционную функцию по входной матрице и заданному лагу  
 yule_walker_sol() - вычисляет оценки Юла-Уокера коэффициентов модели по входному изображению  
